@@ -7,6 +7,8 @@ const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 
 precacheAndRoute(self.__WB_MANIFEST);
 
+
+// This const will be used to cache responses.
 const pageCache = new CacheFirst({
   cacheName: 'page-cache',
   plugins: [
@@ -19,12 +21,13 @@ const pageCache = new CacheFirst({
   ],
 });
 
+// This code will warm the page cache as soon as the service worker is installed.
 warmStrategyCache({
   urls: ['/index.html', '/'],
   strategy: pageCache,
 });
 
-// TODO: Implement asset caching
+//Registers a route for the root path of the application, and the index.html file.
 registerRoute(
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
   new StaleWhileRevalidate({
