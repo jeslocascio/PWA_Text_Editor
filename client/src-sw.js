@@ -35,4 +35,4 @@ registerRoute(
       }),
     ],
   }),
-);s
+);
