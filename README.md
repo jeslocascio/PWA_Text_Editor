@@ -51,6 +51,8 @@ Of course, this page also offers you the ability to install it as a Progressive 
   
 Rutgers Fullstack Flex Coding Bootcamp provided the starter code.
 
+Worked in parallel with Robert Kaise and Daniel Merkin.
+
 ## Tests
   
   N/A
