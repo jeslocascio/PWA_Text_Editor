@@ -42,7 +42,9 @@ Of course, this page also offers you the ability to install it as a Progressive 
 
 
   ![Installed App for J.A.T.E](./client/src/images/Installed_App.png)
-  
+
+Alternatively, you can click [This Link](https://pwa-test-editor-jeslocascio-d9f1ad1ab017.herokuapp.com/) to see J.A.T.E in action!
+ 
  ## License
  ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
   This project is licensed under the terms of the **[MIT License](https://opensource.org/licenses/MIT)**
